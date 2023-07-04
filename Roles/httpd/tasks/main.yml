@@ -6,3 +6,7 @@
 - name: Configure
   import_tasks: "configure.yml"
 
+- name: Enable
+  import_tasks: "enable.yml"
+
+
