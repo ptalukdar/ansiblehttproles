@@ -1,0 +1,3 @@
+---
+- name: Install
+  import_tasks: "s3create.yml"

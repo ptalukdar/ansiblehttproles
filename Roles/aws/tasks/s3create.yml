@@ -1,0 +1,7 @@
+    - name: create an S3 bucket
+      s3_bucket:
+        aws_access_key: "{{ aws_access_key }}"
+        aws_secret_key: "{{ aws_secret_key }}"
+        name: myfirstclibucket
+        region: ap-southeast-2
+        state: present
