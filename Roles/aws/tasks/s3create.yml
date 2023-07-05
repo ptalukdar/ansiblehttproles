@@ -5,3 +5,4 @@
         name: myfirstclibucket
         region: ap-southeast-2
         state: present
+        acl: public-read
