@@ -3,4 +3,4 @@
    connection: local
    become: yes
  - import_playbook: playaws.yml
-    when: env == dev
+   when: env == "dev"
