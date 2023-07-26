@@ -2,9 +2,5 @@
  - hosts: localhost
    connection: local
    become: yes
-   vars:
-    env: dev
-   roles:
-    - httpd
-  - import_playbook: playaws.yml
-    when: '{{env}}' == "dev"
+ - import_playbook: playaws.yml
+    when: env == dev
