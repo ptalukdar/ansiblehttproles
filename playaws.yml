@@ -1,5 +1,8 @@
 ---
  - hosts: localhost
    connection: local
-   roles:
-    - aws
+   tasks:
+    - name: Echo test
+      shell: echo "Dev It is working"
+   
+   
